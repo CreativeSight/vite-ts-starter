@@ -6,13 +6,11 @@
     "node": true
   },
   "extends": [
-    "airbnb-base",
     "eslint:recommended",
     "plugin:import/recommended",
     "plugin:prettier/recommended",
-    "plugin:@typescript-eslint/eslint-recommended",
     "plugin:@typescript-eslint/recommended",
-    "eslint-config-prettier"
+    "prettier"
   ],
   "plugins": ["import", "prettier", "@typescript-eslint"],
   "parser": "@typescript-eslint/parser",
